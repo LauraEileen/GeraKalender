@@ -4,7 +4,7 @@
                 FEBRUAR 2018
             </button>
         
-            <div class="week h10 flex verteilen padding1 ">
+            <div class="week h20 flex verteilen padding1 ">
                 <button class="headline2">MO<br>12</button>
                 <button class="headline2">DI<br>13</button>
                 <button class="headline2">MI<br>14</button>
