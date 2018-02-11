@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.cPager.boilerplate;
+package com.cPager.Laura;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
