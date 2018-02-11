@@ -1,0 +1,143 @@
+/******* Globale Einstellung ******/
+
+html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    #soutline: 1px solid black;
+}
+
+
+
+
+.farbe {
+    background-color: #F06424;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.farbe .strich {
+   background-image: url(../img/strich_wei%C3%9F-09-09.png);
+}
+
+.btn_like {
+    display: none;
+    background-image: url(../img/herz_button-09-09.png);
+    background-size:  100% auto;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+}
+.farbe .btn_like {
+    display: block;
+}
+
+
+
+.farbe2 {
+    background-color: red;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.headline{
+    font-family:'Anton', sans-serif;
+    
+
+}
+
+.headline2{
+    font-family:'Anton', sans-serif;
+    font-size: 2vh;
+    
+
+}
+
+.monat {
+    font-family: 'Anton', sans-serif;
+    font-size:9vw;
+    color: #F06424;
+}
+
+.punkt {
+    background-image: url(../img/punkt-09.png);
+    background-position: center 110%;
+    background-size: 123% auto;
+    background-repeat: no-repeat;
+}
+
+.punkt_farbe {
+    background-image: url(../img/punkt_orange-01-09.png);
+    background-size: auto 233%;
+    background-position: center 93%;
+}
+
+.strich {
+    background-image: url(../img/strich-09.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+
+.button{
+
+    background-image: url(../img/plus_button-09-09.jpg);
+    background-repeat: no-repeat;
+    background-size:  auto 100%;
+    background-position: center;
+}
+
+
+.text{
+    font-family:'Abel', sans-serif; }
+
+
+.flex {display: flex;flex-flow: wrap;}
+
+
+
+.verteilen {
+    justify-content: space-between;
+    padding: 5vw 5vw 5vw 5vw;
+
+}
+
+
+.location {
+    
+    background-image: url(.../img/plus_button-09-09.jpg);
+    
+}
+
+
+/* ich bin das Raster **/
+.h1 {height: 1vh;}
+.h2 {height: 2vh;}
+.h3 {height: 3vh;}
+.h5 {height: 5vh;}
+.h10 {height: 10vh;}
+.h20 {height: 20vh;}
+.h30 {height: 30vh;}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+.h80 {height: 80vh;}
+.h100 {height: 100vh;}
+.w100 {width: 100vw;}
+.w50 {width: 50vw;}
+.w20 {width: 20vw;}
+.w10 {width: 10vw;}
+
+.detailtext {
+    display: none;
+    min-height: 0px;
+}
+
+
+

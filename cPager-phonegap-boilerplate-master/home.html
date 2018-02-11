@@ -1,0 +1,128 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+    </head>
+    
+    
+    <body class="home">
+    
+
+            <button class="monat w100 h10">
+                FEBRUAR 2018
+            </button>
+        
+            <div class="week h10 flex verteilen padding1 ">
+                <button class="headline2">MO<br>12</button>
+                <button class="headline2">DI<br>13</button>
+                <button class="headline2">MI<br>14</button>
+                <button class="headline2">DO<br>15</button>
+                <button class="headline2">FR<br>16</button>
+                <button class="headline2">SA<br>17</button>
+                <button class="headline2">SO<br>18</button>
+            </div>
+        
+        
+            <div class="timeline w100 h80">
+                
+                
+                
+                <div class="event flex">
+                    <button class="headline time w20">29:00</button>
+                    <div class="stich w10 punkt"></div>
+                    <div class="headline w50">DRACHEN UND FAMILIENFEST 
+                        <img class="plus h2" src="img/plus_button-09-09.jpg">
+                    </div>
+                    
+                    <div class=" text w100 flex detail">                  
+                        <div class="w20"></div>
+                        <div class="w10 strich"></div>
+                        <div class="w50">
+                            <div class="ort">Marktplatz</div>
+                            <div class="detailtext">
+                           Das alljähliche Drachen und Familienfest findet dieses Jahr auf dem Marktplatz in Gera statt.
+                            </div>    
+                        </div>
+                        <div class="w20 btn_like"></div>
+                    </div>
+                    
+                </div>
+                <!-- E1 Event -->
+   
+                
+
+                
+              
+       
+     
+                <div class="event flex">
+                    <button class="headline time w20">29:00</button>
+                    <div class="stich w10 punkt"></div>
+                    <div class="headline w50">DRACHEN UND FAMILIENFEST 
+                        <img class="plus h2" src="img/plus_button-09-09.jpg">
+                    </div>
+                    
+                    <div class=" text w100 flex detail">                  
+                        <div class="w20"></div>
+                        <div class="w10 strich"></div>
+                        <div class="w50">
+                            <div class="ort">Marktplatz</div>
+                            <div class="detailtext">
+                           Das alljähliche Drachen und Familienfest findet dieses Jahr auf dem Marktplatz in Gera statt.
+                            </div>    
+                        </div>
+                        <div class="w20 btn_like"></div>
+                    </div>
+                    
+                </div>
+                <!-- E1 Event -->
+   
+                
+
+                
+         
+   
+                
+                
+     
+                
+                
+                
+
+                
+            </div>
+
+    
+        
+        <script>
+        
+        $('.plus').on('click',function() {
+            
+            $(this).parent().parent()
+                    .find( ".detail").toggleClass('farbe');
+            
+            $(this).parent().parent().find( ".detailtext")
+            .slideToggle( "slow", function() {});
+
+
+
+        });
+
+        
+     
+        
+        
+        </script>
+        
+        
+    </body>
+
+
+</html>

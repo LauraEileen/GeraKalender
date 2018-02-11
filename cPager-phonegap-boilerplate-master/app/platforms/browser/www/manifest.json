@@ -1,0 +1,9 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "cPager-phonegap-boilerplate",
+  "short_name": "cPager-phonegap-boilerplate",
+  "version": "com.cPager.boilerplate",
+  "icons": [],
+  "start_url": "index.html"
+}
